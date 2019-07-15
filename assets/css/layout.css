@@ -1,0 +1,110 @@
+html {
+  background: linear-gradient(to bottom, #780206, #061161);
+  background: linear-gradient(to bottom, #000024, #000000);
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 100%;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+body {
+  height: 100%;
+}
+div#particles-js {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+}
+div.center {
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  transform: translate3d(0%, -100%, 0%);
+}
+div.center a {
+  text-align: left;
+  font-size: 1.5rem;
+}
+div.center a.button {
+  float:left;
+  background-color: rgba(255,255,255,0.05);
+  border-radius: 5px;
+  margin: 2% 2% 0% 0%;
+  padding: 2% 2%;
+  color: #ffffff;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+h1 {
+  margin: -1% 0% 0% 0%;
+  text-align: left;
+  font-size: 5rem;
+}
+div.content {
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  right: 0;
+  left: 60%;
+  padding: 0 2%;
+  text-align: center;
+  transform: translate(0%, -50%);
+  font-size: 1.5rem;
+}
+a.blog-entry {
+  display: inline-block;
+  width: 60%;
+  height: 10%;
+  border-radius: 5px;
+  padding: 2% 2%;
+  margin: 1% 0% 0% 0%;
+  background-color: rgba(255,255,255,0.05);
+  color: #ffffff;
+  text-decoration: none;
+}
+div.blog-content {
+  position: absolute;
+  width: 50%;
+  top: 33%;
+  display: inline-block;
+  left: 50%;
+  padding: 0% 2% 2% 2%;
+  overflow-y: auto;
+  height: 60%;
+  text-align: justify;
+  transform: translate(-50%, 0%);
+}
+div.blog-title {
+  position: absolute;
+  top: 10%;
+  left: 25%;
+  width: 50%;
+  text-align: center;
+}
+div.blog-title h1 {
+  text-align: center;
+}
+div.blog-title a {
+  font-size: 1.5rem;
+  text-align: center;
+}
+div.blog-title a.button {
+  float: center;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 5px;
+  margin: 2% 2% 0% 0%;
+  padding: 2% 2%;
+  color: #ffffff;
+  font-size: 1.5rem;
+  text-decoration: none;
+  transform: translate(-50%, 0%);
+}
+::-webkit-scrollbar { 
+  display: none; 
+}
+code {
+  background-color: rgba(0, 0, 0, 0.6);
+  font-weight: bold;
+}
