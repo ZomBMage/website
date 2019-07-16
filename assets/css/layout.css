@@ -45,9 +45,9 @@ div.content {
   position: absolute;
   top: 50%;
   left: 80%;
-  right: 0;
+  right: 0%;
   left: 60%;
-  padding: 0 2%;
+  padding: 0% 2%;
   text-align: center;
   transform: translate(0%, -50%);
   font-size: 1.5rem;
