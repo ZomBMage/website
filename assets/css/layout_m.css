@@ -75,12 +75,12 @@ html {
   div.blog-content {
     position: absolute;
     width: 80%;
-    top: 40%;
+    top: 25%;
     display: inline-block;
     left: 50%;
     padding: 0% 2% 2% 2%;
     overflow-y: auto;
-    height: 40%;
+    height: 60%;
     text-align: justify;
     transform: translate(-50%, 0%);
     justify-content: center;
@@ -88,22 +88,23 @@ html {
   div.blog-title {
     position: absolute;
     top: 10%;
-    left: 50%;
-    width: 50%;
+    width: 100%;
+    padding: 0% 2% 2% 0%;
     text-align: center;
-    transform: translate(-50%, 0%);
   }
   div.blog-title h1 {
     text-align: center;
+    font-size: 1.5rem;
   }
   div.blog-title a {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     text-align: center;
+    padding: 0% 2% 2% 0%;
   }
   div.blog-title a.button {
     float: center;
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(255,255,255,0.05);
     border-radius: 5px;
     margin: 2% 2% 0% 0%;
     padding: 2% 2%;
@@ -116,7 +117,7 @@ html {
     display: none; 
   }
   code {
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(255,255,255,0.05);
     font-weight: bold;
   }
   
