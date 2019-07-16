@@ -3,7 +3,7 @@ html {
     background: linear-gradient(to bottom, #000024, #000000);
     color: #ffffff;
     font-family: "Roboto", sans-serif;
-    font-size: 100%;
+    font-size: 70%;
     height: 100%;
     width: 100%;
   }
@@ -38,7 +38,7 @@ html {
     margin: 2% 1% 1% 1%;
     padding: 1% 1%;
     color: #ffffff;
-    font-size: 1rem;
+    font-size: 1.5rem;
     text-decoration: none;
   }
   h1 {
@@ -49,15 +49,14 @@ html {
   }
   div.content {
     float: center;
-    position: absolute;
-    bottom: -50%;
+    position: fixed;
+    bottom: 0%;
     height: 50%;
     right: 5%;
     left: 5%;
     padding: 0% 0%;
     text-align: justify;
-    transform: translate(0%, -50%);
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
   a.blog-entry {
     display: inline-block;
