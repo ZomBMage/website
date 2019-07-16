@@ -30,6 +30,7 @@ html {
   div.center a {
     text-align: center;
     font-size: 1.5rem;
+    padding: 2%;
   }
   div.center a.button {
     float: center;
@@ -60,11 +61,13 @@ html {
   }
   a.blog-entry {
     display: inline-block;
+    text-align: center;
     width: 60%;
     height: 10%;
     border-radius: 5px;
     padding: 2% 2%;
-    margin: 1% 0% 0% 0%;
+    margin: 1% 0% 0% 15%;
+    font-size: 1.1rem;
     background-color: rgba(255,255,255,0.05);
     color: #ffffff;
     text-decoration: none;
@@ -80,6 +83,7 @@ html {
     height: 40%;
     text-align: justify;
     transform: translate(-50%, 0%);
+    justify-content: center;
   }
   div.blog-title {
     position: absolute;
