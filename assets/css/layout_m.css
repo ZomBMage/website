@@ -9,16 +9,23 @@ html {
   }
   body {
     height: 100%;
+    width: 100%;
   }
   div#particles-js {
     height: 100%;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
     width: 100%;
-    position: fixed;
   }
   div.center {
     position: absolute;
     top: 10%;
-    left: 50%;
+    height: 20%;
+    left: 0%;
+    right: 0%;
+    text-align: center;
   }
   div.center a {
     text-align: center;
@@ -26,27 +33,29 @@ html {
   }
   div.center a.button {
     float: center;
+    bottom: 0%;
     background-color: rgba(255,255,255,0.05);
-    border-radius: 5px;
-    margin: 2% 2% 0% 0%;
-    padding: 2% 2%;
+    margin: 2% 1% 1% 1%;
+    padding: 1% 1%;
     color: #ffffff;
-    font-size: 1.5rem;
+    font-size: 1rem;
     text-decoration: none;
   }
   h1 {
+    position: relative;
     margin: -1% 0% 0% 0%;
     text-align: center;
     font-size: 5rem;
   }
   div.content {
+    float: center;
     position: absolute;
-    bottom: 10%;
+    bottom: -50%;
     height: 50%;
-    right: 0%;
-    left: 60%;
-    padding: 0% 2%;
-    text-align: center;
+    right: 5%;
+    left: 5%;
+    padding: 0% 0%;
+    text-align: justify;
     transform: translate(0%, -50%);
     font-size: 1.5rem;
   }
