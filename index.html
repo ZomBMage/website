@@ -8,7 +8,6 @@
 
     <!-- Styles -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&display=swap">
-    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"-->
     <link rel="stylesheet" href="assets/css/normalize.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.css">
     <link rel="stylesheet" media="screen and (min-device-width: 800px)" href="assets/css/layout.css">
@@ -33,6 +32,7 @@
           </div>
         </div>
         <div class="scene_element scene_element--fadeinup content" id="countdown">
+          Countdown to Exchange:<br>
           </div>
       </div>
     </div>
@@ -62,7 +62,7 @@
       var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
       // Display the result in the element with id="demo"
-      document.getElementById("countdown").innerHTML = days + "d " + hours + "h "
+      document.getElementById("countdown").innerHTML = "Countdown to Exchange:\n" + days + "d " + hours + "h "
       + minutes + "m " + seconds + "s ";
 
       // If the count down is finished, write some text 
